@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+
+		<RootNamespace>MIDIProgramSplitter</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EndianBinaryIO" Version="2.1.0" />
+		<PackageReference Include="KMIDI" Version="1.0.0" />
+		<ProjectReference Include="../FLP/FLP.csproj" />
+	</ItemGroup>
+
+</Project>
